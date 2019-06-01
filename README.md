@@ -1,5 +1,2 @@
-# 南京大学软件工程综合实验
-hello是app客户端    
-backend是后端      
->141220029    
->冯伟赞
+some useless demo
+
