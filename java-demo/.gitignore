@@ -1,0 +1,6 @@
+*.iml
+.vscode
+.gradle
+target
+log
+logs
