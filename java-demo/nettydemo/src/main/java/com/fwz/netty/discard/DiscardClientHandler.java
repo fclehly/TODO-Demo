@@ -9,6 +9,6 @@ public class DiscardClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, ByteBuf msg) throws Exception {
         ctx.writeAndFlush(msg);
-        
+
     }
 }

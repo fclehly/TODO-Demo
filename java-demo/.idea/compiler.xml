@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
+        <module name="java11" />
         <module name="nettydemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="helloworld" target="11" />
-      <module name="nettydemo" target="11" />
+      <module name="helloworld" target="1.5" />
+      <module name="java11" target="1.5" />
+      <module name="nettydemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
