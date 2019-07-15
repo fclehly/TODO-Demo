@@ -12,9 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="helloworld" target="1.5" />
-      <module name="java11" target="1.5" />
-      <module name="nettydemo" target="1.5" />
+      <module name="helloworld" target="11" />
+      <module name="java11" target="11" />
+      <module name="nettydemo" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -13,14 +13,19 @@ public class DiscardClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-
+        System.out.println("call channel Active");
         this.ctx = ctx;
         content = ctx.alloc().directBuffer(DiscardClient.SIZE).writeZero(DiscardClient.SIZE);
         generateTraffic();
     }
 
-    protected void channelRead0(ChannelHandlerContext ctx, ByteBuf msg) throws Exception {
+    @Override
+    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("call channelInactive");
+    }
 
+    protected void channelRead0(ChannelHandlerContext ctx, ByteBuf msg) throws Exception {
+        System.out.println("call channelRead0");
     }
 
     @Override

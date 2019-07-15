@@ -3,20 +3,13 @@ package com.fwz.netty.discard;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.SimpleChannelInboundHandler;
 
-public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
+public class DiscardServerHandler extends SimpleChannelInboundHandler<Object> {
+
     @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        ByteBuf in = (ByteBuf) msg;
-        try {
-            while (in.isReadable()) {
-                System.out.println(in.readByte());
-                System.out.flush();
-            }
-        } finally {
-            in.release();
-        }
-
+    protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
+        // discard
     }
 
     @Override
