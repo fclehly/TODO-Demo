@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce9ae9a-d569-4aef-a9fa-df02589b9076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClientChannelHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServerChannelHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/echo/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/echo/EchoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/echo/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/echo/EchoServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/discard/DiscardClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/discard/DiscardClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/discard/DiscardServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/discard/DiscardServerHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/helloworld/target/" />
     <ignored path="$PROJECT_DIR$/nettydemo/target/" />
@@ -33,32 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/discard/DiscardServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/discard/DiscardServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#744#1056#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/echo/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+            <state relative-caret-position="558">
+              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#590#878#0" expanded="true" />
@@ -144,10 +109,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#759#1024#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServerChannelHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="156">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,8 +192,10 @@
         <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/echo/EchoClient.java" />
         <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClientChannelHandler.java" />
         <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServer.java" />
-        <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClient.java" />
         <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServerChannelHandler.java" />
+        <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClient.java" />
+        <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServer.java" />
+        <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServerHandler.java" />
       </list>
     </option>
   </component>
@@ -259,7 +252,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +261,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563199503991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563203327443" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -305,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChatRoomClient">
+  <component name="RunManager" selected="Application.HttpServer">
     <configuration name="ChatRoomClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fwz.netty.chatroom.ChatRoomClient" />
       <module name="nettydemo" />
@@ -325,19 +318,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fwz.netty.chatroom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiscardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fwz.netty.discard.DiscardServer" />
-      <module name="nettydemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fwz.netty.discard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,20 +351,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fwz.netty.http.HttpServer" />
+      <module name="nettydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fwz.netty.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ChatRoomClient" />
       <item itemvalue="Application.ChatRoomServer" />
-      <item itemvalue="Application.DiscardServer" />
       <item itemvalue="Application.EchoClient" />
       <item itemvalue="Application.EchoServer" />
+      <item itemvalue="Application.HttpServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpServer" />
         <item itemvalue="Application.ChatRoomClient" />
         <item itemvalue="Application.ChatRoomServer" />
         <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.EchoServer" />
-        <item itemvalue="Application.DiscardServer" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +398,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15354000" />
+    <option name="totallyTimeSpent" value="17033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -426,7 +419,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291536" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -617,16 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClientChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -639,10 +622,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServerChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClientChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        <state relative-caret-position="558">
+          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#590#878#0" expanded="true" />
@@ -651,10 +654,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServerChannelHandler.java">
+    <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="353">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#759#1024#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
