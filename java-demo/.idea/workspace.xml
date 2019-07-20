@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce9ae9a-d569-4aef-a9fa-df02589b9076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/stream/StreamOperationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/bytebuf/CompositeByteBufDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/helloworld/target/" />
@@ -14,6 +14,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/helloworld">
@@ -29,30 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,36 +73,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/DuplexChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/stream/StreamOperationDemo.java">
+        <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/bytebuf/CompositeByteBufDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+            <state relative-caret-position="308">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5284#5285#0" expanded="true" />
-                <element signature="e#5319#5320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/chatroom/ChatRoomServerChannelHandler.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/buffer/CompositeByteBuf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="-359">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/stream/StreamOperationDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="182" column="67" selection-start-line="182" selection-start-column="67" selection-end-line="182" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5284#5285#0" expanded="true" />
+                <element signature="e#5319#5320#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,6 +158,7 @@
         <option value="$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/task/Task.java" />
         <option value="$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/task/FutureDemo.java" />
         <option value="$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/stream/StreamOperationDemo.java" />
+        <option value="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/bytebuf/CompositeByteBufDemo.java" />
       </list>
     </option>
   </component>
@@ -194,38 +185,42 @@
             </path>
             <path>
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
+              <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
+              <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
+              <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
+              <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java11" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="bytebuf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +235,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563461440840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563637133618" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -260,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamOperationDemo">
+  <component name="RunManager" selected="Application.CompositeByteBufDemo">
     <configuration name="ChatRoomClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fwz.netty.chatroom.ChatRoomClient" />
       <module name="nettydemo" />
@@ -274,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatRoomServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fwz.netty.chatroom.ChatRoomServer" />
+    <configuration name="CompositeByteBufDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fwz.netty.bytebuf.CompositeByteBufDemo" />
       <module name="nettydemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fwz.netty.chatroom.*" />
+          <option name="PATTERN" value="com.fwz.netty.bytebuf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,18 +323,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ChatRoomClient" />
-      <item itemvalue="Application.ChatRoomServer" />
       <item itemvalue="Application.HttpServer" />
       <item itemvalue="Application.FutureDemo" />
       <item itemvalue="Application.StreamOperationDemo" />
+      <item itemvalue="Application.CompositeByteBufDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositeByteBufDemo" />
         <item itemvalue="Application.StreamOperationDemo" />
         <item itemvalue="Application.FutureDemo" />
         <item itemvalue="Application.HttpServer" />
         <item itemvalue="Application.ChatRoomClient" />
-        <item itemvalue="Application.ChatRoomServer" />
       </list>
     </recent_temporary>
   </component>
@@ -356,12 +351,12 @@
       <workItem from="1559466695246" duration="5727000" />
       <workItem from="1560260802703" duration="1007000" />
       <workItem from="1560263979672" duration="846000" />
-      <workItem from="1563279279668" duration="3824000" />
+      <workItem from="1563279279668" duration="6072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21195000" />
+    <option name="totallyTimeSpent" value="23443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -403,6 +398,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/stream/StreamOperationDemo.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/netty-demo/build.gradle" />
@@ -636,23 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/task/FutureDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/DuplexChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Optional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -669,12 +659,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/stream/StreamOperationDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+        <state relative-caret-position="533">
+          <caret line="182" column="67" selection-start-line="182" selection-start-column="67" selection-end-line="182" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5284#5285#0" expanded="true" />
             <element signature="e#5319#5320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelDuplexHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketClientHandshaker13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="156" column="13" lean-forward="true" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/buffer/CompositeByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/DuplexChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java11/src/main/java/com/fwz/java11/task/FutureDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5126">
+          <caret line="277" column="22" selection-start-line="277" selection-start-column="22" selection-end-line="277" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/CharsetUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/bytebuf/CompositeByteBufDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
