@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/java11/java11.iml" filepath="$PROJECT_DIR$/java11/java11.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettydemo/nettydemo.iml" filepath="$PROJECT_DIR$/nettydemo/nettydemo.iml" />
