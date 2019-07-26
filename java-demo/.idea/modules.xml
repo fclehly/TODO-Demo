@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/java11/java11.iml" filepath="$PROJECT_DIR$/java11/java11.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettydemo/nettydemo.iml" filepath="$PROJECT_DIR$/nettydemo/nettydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hi/service-hi.iml" filepath="$PROJECT_DIR$/service-hi/service-hi.iml" />
     </modules>
   </component>
 </project>
