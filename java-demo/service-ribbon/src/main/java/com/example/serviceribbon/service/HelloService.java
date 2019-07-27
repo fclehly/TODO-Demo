@@ -1,6 +1,6 @@
 package com.example.serviceribbon.service;
 
-import com.netflix.discovery.converters.Auto;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -11,8 +11,15 @@ public class HelloService {
     @Autowired
     private RestTemplate restTemplate;
 
-    public String hiService() {
-        return restTemplate.getForObject("http://SERVICE-HI/hi", String.class);
+    @HystrixCommand(fallbackMethod = "hiServiceFallback")
+    public String hiService(String name) {
+        return restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, String.class);
+    }
+
+    public String hiServiceFallback(String name) {
+        return "{\n\t" +
+                "\"message\": \"hi service error : name=" + name + "\"" +
+                "\n}";
     }
 
 }
