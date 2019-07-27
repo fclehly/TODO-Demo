@@ -1,6 +1,6 @@
 spring:
   application:
-    name: serivce-feign
+    name: service-feign
 
 server:
   port: 8120
