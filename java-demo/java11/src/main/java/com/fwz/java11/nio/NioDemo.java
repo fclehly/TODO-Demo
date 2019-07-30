@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
-public class FastCopy {
+public class NioDemo {
     public static void fastCopy(String src, String dest) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(src);
         FileChannel fileInputChannel = fileInputStream.getChannel();
@@ -29,8 +29,9 @@ public class FastCopy {
     }
 
     public static void main(String[] args) throws IOException {
+        final String tempFilePath = "/Users/fwz/tmp/temp.txt";
         File file = new File(".");
         System.out.println(file.getAbsolutePath());
-        fastCopy("java11/pom.xml", "./temp.txt");
+        fastCopy("java11/pom.xml", tempFilePath);
     }
 }
