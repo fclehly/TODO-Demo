@@ -31,7 +31,7 @@ public class HttpServer {
                             pipeline.addLast("httpServerCodec", new HttpServerCodec());
                         }
                     });
-            ChannelFuture future = bootstrap.bind().sync();
+            ChannelFuture future = bootstrap.bind(8080).sync();
             future.channel().closeFuture().sync();
         } catch (Exception e) {
             e.printStackTrace();

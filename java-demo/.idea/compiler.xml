@@ -9,8 +9,8 @@
         <module name="eureka-server" />
         <module name="helloworld" />
         <module name="java11" />
-        <module name="nettydemo" />
         <module name="service-feign" />
+        <module name="nettydemo" />
         <module name="service-hi" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
@@ -19,7 +19,7 @@
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="helloworld" target="1.5" />
-      <module name="java11" target="11" />
+      <module name="java11" target="1.5" />
       <module name="nettydemo" target="11" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
