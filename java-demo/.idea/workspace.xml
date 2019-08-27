@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce9ae9a-d569-4aef-a9fa-df02589b9076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/AbstractClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/AbstractServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/PipelineInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/time/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/time/TimeClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/time/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/time/TimeServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/AbstractClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/AbstractClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/AbstractServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/AbstractServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,39 +104,39 @@
     </option>
     <option name="contentProportion" value="0.2068323" />
   </component>
-  <component name="RunManager" selected="Application.WebSocketClient">
-    <configuration name="AgentServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fwz.netty.forward.agent.AgentServer" />
-      <module name="nettydemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fwz.netty.forward.agent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fwz.netty.http.HttpServer" />
-      <module name="nettydemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fwz.netty.http.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TimeClient">
     <configuration name="PushClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fwz.netty.forward.pusher.PushClient" />
       <module name="nettydemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fwz.netty.forward.pusher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fwz.netty.time.TimeClient" />
+      <module name="nettydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fwz.netty.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fwz.netty.time.TimeServer" />
+      <module name="nettydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fwz.netty.time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,9 +208,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AgentServer" />
       <item itemvalue="Application.PushClient" />
-      <item itemvalue="Application.HttpServer" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
       <item itemvalue="Spring Boot.ServiceRibbonApplication" />
@@ -215,14 +216,16 @@
       <item itemvalue="Spring Boot.ServiceZuulApplication" />
       <item itemvalue="Application.WebSocketServer" />
       <item itemvalue="Application.WebSocketClient" />
+      <item itemvalue="Application.TimeServer" />
+      <item itemvalue="Application.TimeClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeClient" />
+        <item itemvalue="Application.TimeServer" />
         <item itemvalue="Application.WebSocketClient" />
         <item itemvalue="Application.WebSocketServer" />
         <item itemvalue="Application.PushClient" />
-        <item itemvalue="Application.HttpServer" />
-        <item itemvalue="Application.AgentServer" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +248,7 @@
       <workItem from="1566475970325" duration="10134000" />
       <workItem from="1566568943393" duration="178000" />
       <workItem from="1566569139785" duration="340000" />
-      <workItem from="1566570809795" duration="4725000" />
+      <workItem from="1566570809795" duration="6214000" />
     </task>
     <servers />
   </component>

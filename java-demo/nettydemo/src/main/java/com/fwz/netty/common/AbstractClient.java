@@ -29,6 +29,7 @@ public abstract class AbstractClient implements PipelineInitializer {
             Bootstrap bootstrap = new Bootstrap()
                     .channel(NioSocketChannel.class)
                     .option(ChannelOption.TCP_NODELAY, true)
+                    .group(group)
                     .handler(channelInitializer);
             ChannelFuture channelFuture = bootstrap.connect(host, port).sync();
             return channelFuture.channel();

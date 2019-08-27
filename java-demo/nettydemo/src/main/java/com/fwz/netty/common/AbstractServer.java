@@ -6,6 +6,7 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.logging.LoggingHandler;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -28,7 +29,9 @@ public abstract class AbstractServer implements PipelineInitializer {
             ServerBootstrap serverBootstrap = new ServerBootstrap()
                     .channel(NioServerSocketChannel.class)
                     .option(ChannelOption.SO_BACKLOG, 1024)
-                    .handler(channelInitializer);
+                    .group(bossGroup, workerGroup)
+                    .handler(new LoggingHandler())
+                    .childHandler(channelInitializer);
             ChannelFuture channelFuture = serverBootstrap.bind(port).sync();
             channelFuture.channel().closeFuture().sync();
         } catch (Exception e) {
