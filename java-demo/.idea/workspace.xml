@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce9ae9a-d569-4aef-a9fa-df02589b9076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/forward/agent/AgentChannelInboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/forward/agent/AgentChannelOutboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/forward/agent/AgentDuplexHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/forward/agent/AgentServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/forward/puller/PullClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/forward/puller/PullInboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/forward/pusher/PushClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/forward/pusher/PushInboundHander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/websocket/client/WebSocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/websocket/client/WebSocketClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/websocket/server/WebSocketFrameHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/websocket/server/WebSocketIndexPageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/websocket/server/WebSocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/websocket/server/WebSocketServerIndexPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/websocket/server/WebSocketServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/AbstractClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/AbstractServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/common/PipelineInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettydemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nettydemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettydemo/src/main/java/com/fwz/netty/http/HttpServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -261,7 +245,7 @@
       <workItem from="1566475970325" duration="10134000" />
       <workItem from="1566568943393" duration="178000" />
       <workItem from="1566569139785" duration="340000" />
-      <workItem from="1566570809795" duration="2801000" />
+      <workItem from="1566570809795" duration="4725000" />
     </task>
     <servers />
   </component>
